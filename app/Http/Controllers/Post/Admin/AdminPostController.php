@@ -28,8 +28,8 @@ class AdminPostController extends Controller
         try {
             $validated = $request->validated();
             $post = Post::create($validated);
-        }catch (\Exception $e) {
-            return redirect()->back()->withErrors(['title',['required']]);
+        } catch (\Exception $e) {
+            return redirect()->back()->withErrors(['title', ['required']]);
         }
         return redirect()->back()->with('message', 'successfully');
     }

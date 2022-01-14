@@ -13,9 +13,8 @@
                         {{$post->title}}
                     </h3>
                 </div>
-
             @endforeach
-                {{ $posts->links() }}
+            {{ $posts->links() }}
         </div>
     </div>
 </x-app-layout>
