@@ -10,6 +10,7 @@
 ## About Project
 
 Запуск
+<pre>1. php artisan key:generate</pre>
 1. php artisan key:generate
 2. env.example => env + изменить бд
 3. php artisan migrate
