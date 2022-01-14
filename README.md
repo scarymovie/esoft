@@ -11,8 +11,11 @@
 
 Запуск
 <pre>1. php artisan key:generate</pre>
-1. php artisan key:generate
-2. env.example => env + изменить бд
-3. php artisan migrate
-4. php artisan permission:create-role user
-5. php artisan permission:create-role admin
+<pre>2. env.example => env + изменить бд</pre>
+<pre>3. php artisan migrate</pre>
+<pre>4. php artisan permission:create-role user</pre>
+<pre>5. php artisan permission:create-role admin</pre>
+
+
+
+
